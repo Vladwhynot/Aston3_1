@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/purple_700"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp">
+
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:elevation="3dp"
+                android:src="@drawable/at"
+                android:scaleType="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="1.1in"
+                android:text="Австрия"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp">
+
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:elevation="3dp"
+                android:src="@drawable/pl"
+                android:scaleType="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="1.1in"
+                android:text="Польша"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp">
+
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:elevation="3dp"
+                android:src="@drawable/it"
+                android:scaleType="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="1.1in"
+                android:text="Италия"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp">
+
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:elevation="3dp"
+                android:src="@drawable/co"
+                android:scaleType="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="1.1in"
+                android:text="Колумбия"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp">
+
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:elevation="3dp"
+                android:src="@drawable/mg"
+                android:scaleType="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="1.1in"
+                android:text="Мадагаскар"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp">
+
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:elevation="3dp"
+                android:src="@drawable/th"
+                android:scaleType="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="1.1in"
+                android:text="Тайланд"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp">
+
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:elevation="3dp"
+                android:src="@drawable/dk"
+                android:scaleType="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="1.1in"
+                android:text="Дания"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp">
+
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:elevation="3dp"
+                android:src="@drawable/ch"
+                android:scaleType="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="1.1in"
+                android:text="Швейцария"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
